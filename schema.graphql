@@ -1,0 +1,16 @@
+schema {
+    query: Query
+    mutation: Mutation
+}
+
+type Thing {
+    id: ID
+}
+
+type Mutation {
+    deleteAllThings: Boolean
+}
+
+type Query {
+    things: [Thing]
+}

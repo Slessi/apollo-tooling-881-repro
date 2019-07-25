@@ -1,0 +1,15 @@
+{
+    "name": "apollo-tooling-881-repro",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "author": "",
+    "license": "ISC",
+    "scripts": {
+        "test": "apollo client:codegen --localSchemaFile=schema.graphql --target=typescript"
+    },
+    "devDependencies": {
+        "apollo": "^2.16.1",
+        "typescript": "^3.5.3"
+    }
+}
