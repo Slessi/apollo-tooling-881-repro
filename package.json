@@ -9,7 +9,7 @@
         "test": "apollo client:codegen --localSchemaFile=schema.graphql --target=typescript"
     },
     "devDependencies": {
-        "apollo": "^2.16.1",
+        "apollo": "^2.34.0",
         "typescript": "^3.5.3"
     }
 }
